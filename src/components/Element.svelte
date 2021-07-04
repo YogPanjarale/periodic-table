@@ -20,12 +20,16 @@ div{
     flex-direction: column;
 }
 .symbol{
+    font-size: 14px;
     font-weight: 900;
     justify-self: center;
     margin: 0px;
-    /* align-self: center; */
-    /* margin-top: auto; */
-    /* margin-bottom: auto; */
+}
+.name{
+    font-weight: 300;
+    font-size: 0.5vh;
+    justify-self: center;
+    margin: 0px;
 }
 .number {
   float: left;
@@ -37,4 +41,5 @@ div{
 <div>
     <p class="number">{element.number}</p>
     <p class="symbol">{element.symbol}</p>
+    <p class="name">{element.name}</p>
 </div>
