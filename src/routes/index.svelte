@@ -73,11 +73,11 @@
 	}
 	.element {
 		cursor: pointer;
-		width: 4vw;
-		height: 4vw;
+		width: 4.5vw;
+		height: 4.5vw;
 
 		padding: 2px;
-		/* border: 1px solid #333; */
+		border: 1px solid #333;
 		border-collapse: collapse;
 		overflow: hidden;
 	}

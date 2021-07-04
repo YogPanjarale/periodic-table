@@ -15,11 +15,26 @@ import type { PCElement } from "src/types";
   border-collapse: collapse;
   overflow: hidden;
 } */
-/* p{
-    
-} */
+div{
+    display: flex;
+    flex-direction: column;
+}
+.symbol{
+    font-weight: 900;
+    justify-self: center;
+    margin: 0px;
+    /* align-self: center; */
+    /* margin-top: auto; */
+    /* margin-bottom: auto; */
+}
+.number {
+  float: left;
+  font-size: 0.5vw;
+  /* position: absolute; */
+  
+}
 </style>
 <div>
-    {element.number}
-    <p>{element.symbol}</p>
+    <p class="number">{element.number}</p>
+    <p class="symbol">{element.symbol}</p>
 </div>
